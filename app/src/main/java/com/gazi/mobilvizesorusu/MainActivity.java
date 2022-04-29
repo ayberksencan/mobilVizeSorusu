@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
                     Intent gecis = new Intent(MainActivity.this, welcomePage.class);
                     startActivity(gecis);
+                    //Hello world
                 }
                 else{
                     Toast.makeText(MainActivity.this, "Lütfen bilgilerinizi kontrol ediniz!", Toast.LENGTH_SHORT).show();
